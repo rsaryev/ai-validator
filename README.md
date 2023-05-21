@@ -1,1 +1,1 @@
-# llm-validator
+# ai-validator
