@@ -1,0 +1,52 @@
+{
+  "name": "ai-validator",
+  "version": "1.0.71",
+  "description": "The ai-validator library helps to extract structured data from the output text of language models.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testRegex": ".*\\.test\\.ts$",
+    "rootDir": "./",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/dist/",
+      "/tests/helpers.ts"
+    ],
+    "testEnvironment": "node"
+  },
+  "types": "./src/index.d.ts",
+  "author": "rsaryev1997@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rsaryev/ai-validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rsaryev/ai-validator/issues"
+  },
+  "homepage": "https://github.com/rsaryev/ai-validator#readme",
+  "keywords": [
+    "validator",
+    "openai",
+    "chatgpt",
+    "typescript"
+  ],
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1",
+    "zod": "^3.21.4",
+    "zod-to-json-schema": "^3.21.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.1",
+    "jest": "^29.5.0",
+    "prettier": "^2.8.8",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
