@@ -1,7 +1,7 @@
 import { Configuration, OpenAIApi } from 'openai';
 import { z } from 'zod';
-import { AiValidator } from 'ai-validator';
-import dotenv from 'dotenv';
+import { AiValidator } from '../src';
+import * as dotenv from 'dotenv';
 
 dotenv.config();
 const configuration = new Configuration({ apiKey: process.env.API_KEY });

@@ -1,6 +1,6 @@
 import { Configuration, OpenAIApi } from 'openai';
 import { z } from 'zod';
-import { AiValidator } from 'ai-validator';
+import { AiValidator } from '../src';
 import * as dotenv from 'dotenv';
 
 dotenv.config();
